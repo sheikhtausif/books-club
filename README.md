@@ -1,4 +1,4 @@
-# Quora Clone
+# BooksClub (Hackathon)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -16,19 +16,20 @@ Executing the commands mentioned below one by one in your command line will help
 ```
 git clone https://github.com/sheikhtausif/books-club
 cd ./books-club
-npm install
 ```
 
 **To run the react app execute below command**
 
 ```
 cd ./client
+npm install
 npm start
 ```
 **To run the server app execute below command**
 
 ```
 cd ./server
+npm install
 npm run dev
 ```
 
