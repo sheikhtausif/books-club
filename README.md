@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Quora is a social question-and-answer website where user can ask their questions and share their answers over the world.
+BooksClub is an online platform that allows you to provide unused books to needy people. One has to upload the details of the books and if the book is still available then the needy one can get it for free by accessing the details. This project was created within 48 hours as a part of a hackathon at Masai School by our team of web warriors.
 
 <!-- **To see the live site click the below link.** -->
 
