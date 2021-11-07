@@ -1,0 +1,35 @@
+.background_login {
+    width: 100%;
+    height: 92.4vh;
+    background: #393E46;
+    color: aliceblue;
+    padding-top: 100px;
+}
+
+.background_signup {
+    width: 100%;
+    height: 92.4vh;
+    background: #393E46;
+    color: aliceblue;
+    padding-top: 70px;
+}
+
+.login_div, .signup_div {
+    width: 32%;
+    margin: auto;
+    background: #222831;
+    padding: 20px 43px 25px;
+    border-radius: 8px;
+}
+
+.login_div>h1, .signup_div>h1 {
+    color: #eeeeee;
+    text-align: center;
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .login_div, .signup_div {
+        width: 94%;
+    }
+}

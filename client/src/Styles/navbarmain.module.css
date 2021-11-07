@@ -1,0 +1,31 @@
+.navbar_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 30px 9px 100px;
+    z-index: 1000;
+}
+
+.navbar_main a {
+    color: #EEEEEE;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav_button_add {
+    background: #00ADB5;
+}
+
+.nav_button_add:hover {
+    background: #01c2cc;
+}
+
+.list_right_nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.list_right_nav li {
+    margin-left: 20px;
+}

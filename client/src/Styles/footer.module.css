@@ -1,0 +1,16 @@
+.footer_profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_profile div:nth-child(2) {
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #00adb5;
+}

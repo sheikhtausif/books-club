@@ -1,0 +1,47 @@
+.home_cont_main {
+    margin-top: 60px;
+}
+
+.motivate_row {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    padding: 20px 10px;
+    /* border: 1px solid yellow; */
+    background-color: #222831;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.Image_column {
+    margin: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.Card_image {
+    width: 100%;
+    background-size: cover;
+}
+
+.moto_tag {
+    text-align: center;
+    color: #00adb5;
+    margin-top: 10px;
+}
+
+.para_justify {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 1;
+}
+
+.contact_main {
+    margin-top: 50px;
+}
+
+.contact_form {
+    display: flex;
+    align-items: center;
+}

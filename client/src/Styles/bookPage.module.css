@@ -1,0 +1,15 @@
+.main_div {
+    display: flex;
+    background-color: #393E46;
+    margin: auto;
+}
+
+.books {
+    margin-left: 30vw;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
