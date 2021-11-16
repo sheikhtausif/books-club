@@ -65,16 +65,10 @@ npm run dev
 
   
 ## Some screenshots of the project
-<!-- <img src="./Screenshots/Home1.png" />
-<img src="./Screenshots/Home2.png" />
-<img src="./Screenshots/HotelLists.png" />
-<img src="./Screenshots/HotelList1.png" />
-<img src="./Screenshots/RoomDetails.png" />
-<img src="./Screenshots/RoomReserve.png" />
-<img src="./Screenshots/HotelRoomImages.png" />
-<img src="./Screenshots/Signin.png" />
-<img src="./Screenshots/Sign_up.png" />
- -->
+<img src="./screenshots/homepage.png" />
+<img src="./screenshots/signup.png" />
+<img src="./screenshots/login.png" />
+
 ## Team members
 <!-- <ul>
   <li>Chandan Gupta</li>
