@@ -56,15 +56,15 @@ npm run dev
 </ul>
 
 ## Features
-<!-- <ul>
+<ul>
   <li>Signin/Signup</li>
-  <li>Hotel search across world's cities</li>
-  <li>Hotel Booking</li>
-  <li>Filter hotels list by their ratings, hotel name and price etc.</li>
-</ul> -->
+  <li>Users can add Books</li>
+  <li>Users can get the available books for free</li>
+  <li>Users can filter and search</li>
+</ul>
 
   
-## Some screenshots of the project
+<!-- ## Some screenshots of the project -->
 <!-- <img src="./Screenshots/Home1.png" />
 <img src="./Screenshots/Home2.png" />
 <img src="./Screenshots/HotelLists.png" />
@@ -76,29 +76,26 @@ npm run dev
 <img src="./Screenshots/Sign_up.png" />
  -->
 ## Team members
-<!-- <ul>
-  <li>Chandan Gupta</li>
-    <ul>
-      <li>Gmail (gupta.chandan1499@gmail.com)</li>
-      <li>Github <a href="https://github.com/chandan1499">https://github.com/chandan1499</a></li>
-    </ul>
-  <li>Aditya Kumar</li>
-    <ul>
-      <li>Gmail (onlyaditya001@gmail.com)</li>
-      <li>Github <a href="https://github.com/onlyaditya">https://github.com/onlyaditya</a></li>
-    </ul>
+<ul>
   <li>Mohd Tausif</li>
     <ul>
       <li>Gmail (mohammadtausif14@gmail.com)</li>
       <li>Github <a href="https://github.com/sheikhtausif">https://github.com/sheikhtausif</a></li>
     </ul>
-  <li>Millind</li>
+  <li>Vaibhav Raj</li>
     <ul>
-      <li>Gmail (milinddev1011@gmail.com)</li>
-      <li>Github <a href="https://github.com/Milind-dev">https://github.com/Milind-dev</a></li>
+      <li>Gmail (vaibhavraj524@gmail.com)</li>
+      <li>Github <a href="https://github.com/vaibhav-raj">https://github.com/vaibhav-raj</a></li>
+    </ul>
+  <li>Pawan Patidar</li>
+    <ul>
+      <li>Gmail (pawanpatidar21@gmail.com)</li>
+      <li>Github <a href="https://github.com/pawanpatidar21">https://github.com/pawanpatidar21</a></li>
+    </ul>
+  <li>Sumit Bhandari</li>
+    <ul>
+      <li>Gmail (bhandarisumit049@gmail.com)</li>
+      <li>Github <a href="https://github.com/samy721">https://github.com/samy721</a></li>
     </ul>
 </ul>
 
-## Read project blog
-<a href="https://chandan1499.hashnode.dev/travelocity-clone">Travelocity_clone blog</a>
- -->
