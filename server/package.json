@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node -r esm .",
-        "dev": "nodemon -r esm .",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
         "data:import": "nodemon -r esm seeder",
         "data:destroy": "nodemon -r esm . seeder -d"
     },

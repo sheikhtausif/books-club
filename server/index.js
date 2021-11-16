@@ -1,5 +1,6 @@
 const express = require("express");
 const connectDB = require("./config/db");
+const path = require("path");
 const cors = require("cors");
 const mongoSanitize = require("express-mongo-sanitize");
 const helmet = require("helmet");
@@ -53,21 +54,33 @@ app.use(hpp());
 
 require("./middlewares/passport-middleware");
 
-app.get("/", (req, res) => {
-    res.status(200).json({ message: "Welcome to Node.js & Express" });
-});
+
+
+// app.get("/", (req, res) => {
+//     res.status(200).json({ message: "Welcome to Node.js & Express" });
+// });
 
 app.use("/api/v1/auth", authApi);
 app.use("/api/v1/products", productApi);
 app.use("/api/v1/files", filesApi);
 app.use("/api/v1/users", userApi);
 
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../client/build/index.html"));
+});
+
+
+
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(process.env.PORT || 3000, () => {
+
+app.listen(process.env.PORT || 5000, () => {
     consola.success(`Server running on port ${process.env.PORT}`);
 });
+
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err, promise) => {

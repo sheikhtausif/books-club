@@ -1,8 +1,8 @@
 require("dotenv").config();
 
 export const NODE_ENV = process.env.NODE_ENV;
-// export const DB = process.env.DATABASE_CLOUD;
-export const DB = process.env.DATABASE_LOCAL;
+export const DB = process.env.DATABASE_CLOUD;
+// export const DB = process.env.DATABASE_LOCAL;
 export const SECRET = process.env.APP_SECRET;
 export const DOMAIN = process.env.APP_DOMAIN;
 export const SENDGRID_API = process.env.SENDGRID_API_KEY;
